@@ -1,0 +1,26 @@
+
+# Word replacement example
+
+John, Wayne
+Marc, ThangLe
+Josh, Wraps
+Iron, Man
+Spider, Man 
+Toan, Vo
+Khon, Trieu
+Tobi, Dejan
+Sam, Lee
+Hien, Pham
+John, Doe
+
+# Year expression
+Comparision
+\b[1|2]\d{3}\b
+^[1|2]\d{3}$
+
+199812
+2019 2015
+20019
+1687
+1994
+2020 is a great year.

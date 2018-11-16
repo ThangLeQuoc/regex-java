@@ -29,13 +29,22 @@ To escape a dot, (pattern match `.`), use backlash `\.`
 https://www.regular-expressions.info/refshorthand.html
 
 ### Character Repetitions
+Number of occurance of character is specified with `{}` sign
+`{4}`: repeat **4** times  
+`{2,4}`: repeat from **2** to **4** times  
+E.g:
+a{3,5}
+
+`*`: Zero or more repetitions  
+`+`: at least one repetitions  
 
 ### Capture Group
 ### Real case example
 #### String validation
+![Imgur](https://i.imgur.com/uFS4fPb.png)
+[My Regex](https://regexr.com/3trjf)
 #### Quick replacement
 We could use the above regular expression with a replacement pattern - $3$2$1$2$4 or \3\2\1\2\4.
-### Using regular expression in Java
 
 ---
 # References
