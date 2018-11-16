@@ -38,6 +38,9 @@ a{3,5}
 `*`: Zero or more repetitions  
 `+`: at least one repetitions  
 
+### Look arounds
+
+
 ### Capture Group
 ### Real case example
 #### String validation
@@ -55,3 +58,5 @@ We could use the above regular expression with a replacement pattern - $3$2$1$2$
 [Regex: Character Classes](https://www.regular-expressions.info/refcharclass.html)  
 [Regex: Shorthand Character Classes](https://www.regular-expressions.info/refshorthand.html)  
 [Some simple pattern](https://blog.patricktriest.com/you-should-learn-regex/)  
+
+https://www.rexegg.com/
